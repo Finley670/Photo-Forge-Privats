@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "autumnbiomes",
+  "version": "${version}",
+  "name": "Autumn Biomes",
+  "description": "Alle Biome im kräftigen Herbstlook, jedes Blatt mit eigener Farbe.",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["de.autumn.AutumnBiomes"],
+    "client": ["de.autumn.AutumnBiomesClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": ">=26.3-",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
